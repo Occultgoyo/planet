@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.be53d423.css",
-    "main.js": "/static/js/main.c217ac45.js",
-    "static/js/787.ec704a7a.chunk.js": "/static/js/787.ec704a7a.chunk.js",
-    "static/media/Mabinogi_Classic_TTF.ttf": "/static/media/Mabinogi_Classic_TTF.29cfc6b1788dec2cb6bc.ttf",
-    "static/media/planet_container.png": "/static/media/planet_container.18a65683d964a7d238db.png",
-    "index.html": "/index.html",
-    "main.be53d423.css.map": "/static/css/main.be53d423.css.map",
-    "main.c217ac45.js.map": "/static/js/main.c217ac45.js.map",
-    "787.ec704a7a.chunk.js.map": "/static/js/787.ec704a7a.chunk.js.map"
+    "main.css": "/planet/static/css/main.d8704df8.css",
+    "main.js": "/planet/static/js/main.17c6389c.js",
+    "static/js/787.ec704a7a.chunk.js": "/planet/static/js/787.ec704a7a.chunk.js",
+    "static/media/Mabinogi_Classic_TTF.ttf": "/planet/static/media/Mabinogi_Classic_TTF.29cfc6b1788dec2cb6bc.ttf",
+    "static/media/planet_container.png": "/planet/static/media/planet_container.18a65683d964a7d238db.png",
+    "index.html": "/planet/index.html",
+    "main.d8704df8.css.map": "/planet/static/css/main.d8704df8.css.map",
+    "main.17c6389c.js.map": "/planet/static/js/main.17c6389c.js.map",
+    "787.ec704a7a.chunk.js.map": "/planet/static/js/787.ec704a7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be53d423.css",
-    "static/js/main.c217ac45.js"
+    "static/css/main.d8704df8.css",
+    "static/js/main.17c6389c.js"
   ]
 }
