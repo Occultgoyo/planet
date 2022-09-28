@@ -8,7 +8,7 @@ function HomeCarousel(){
       <Carousel.Item>
         <img
           className="viewcard"
-          src={process.env.PUBLIC_URL + "images/Carousel1.jpg"} alt="Carousel1"
+          src={process.env.PUBLIC_URL + "/images/Carousel1.jpg"} alt="Carousel1"
         />
         <Carousel.Caption>
           <h3 className='hfont'>걱정 없는 결제 수단</h3>
@@ -18,7 +18,7 @@ function HomeCarousel(){
       <Carousel.Item>
         <img
           className="viewcard"
-          src={process.env.PUBLIC_URL + "images/Carousel2.jpg"} alt="Carousel2"
+          src={process.env.PUBLIC_URL + "/images/Carousel2.jpg"} alt="Carousel2"
         />
 
         <Carousel.Caption>
@@ -29,7 +29,7 @@ function HomeCarousel(){
       <Carousel.Item>
         <img
           className="viewcard"
-          src={process.env.PUBLIC_URL + "images/Carousel3.jpg"} alt="Carousel3"
+          src={process.env.PUBLIC_URL + "/images/Carousel3.jpg"} alt="Carousel3"
         />
 
         <Carousel.Caption>
@@ -42,7 +42,7 @@ function HomeCarousel(){
       <Carousel.Item>
         <img
           className="viewcard"
-          src={process.env.PUBLIC_URL + "images/Carousel4.jpg"} alt="Carousel4"
+          src={process.env.PUBLIC_URL + "/images/Carousel4.jpg"} alt="Carousel4"
         />
 
         <Carousel.Caption>
@@ -55,7 +55,7 @@ function HomeCarousel(){
       <Carousel.Item>
         <img
           className="viewcard"
-          src={process.env.PUBLIC_URL + "images/Carousel5.jpg"} alt="Carousel5"
+          src={process.env.PUBLIC_URL + "/images/Carousel5.jpg"} alt="Carousel5"
         />
 
         <Carousel.Caption>

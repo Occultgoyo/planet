@@ -12,7 +12,7 @@ function CheckOut() {
       <div className="checkout_op">
         <img
           className="checkout_ad"
-          src={process.env.PUBLIC_URL + "images/checkout_ad.png"}
+          src={process.env.PUBLIC_URL + "/images/checkout_ad.png"}
           alt=""
         />
 

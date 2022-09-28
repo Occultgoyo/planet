@@ -12,7 +12,7 @@ function Header() {
       <Link to="/">
       <img
         className="header_logo"
-        src={process.env.PUBLIC_URL + "images/planet3-1.png"}
+        src={process.env.PUBLIC_URL + "/images/planet3-1.png"}
         alt="header logo"
       /></Link>
 
