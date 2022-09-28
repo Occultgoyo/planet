@@ -1,6 +1,8 @@
 import React from "react";
 import "./CSS/Product.css";
 import { useStateVaule } from "./StateProvider";
+
+
 function Product({id, title, image, price}) {
 
   const [ {basket}, dispatch] = useStateVaule();
@@ -31,7 +33,12 @@ function Product({id, title, image, price}) {
         src={image}
         alt=""
       />
-      <button onClick={addBasket}> 담기 </button>
+      
+      {/* <button onClick={addBasket}> 담기 </button> */}
+      <button onClick={()=>{
+      addBasket();
+      alert("장바구니에 담겼습니다.")}}> 상품담기 </button>
+      
     </div>
   );
 }

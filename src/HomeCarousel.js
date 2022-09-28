@@ -3,7 +3,8 @@ import "./CSS/HomeCarousel.css"
 
 function HomeCarousel(){
   return (
-    <Carousel>
+    // 덮어씌운다.
+    <Carousel className='viewcard'> 
       <Carousel.Item>
         <img
           className="viewcard"

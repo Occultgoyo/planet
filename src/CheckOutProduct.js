@@ -23,7 +23,9 @@ function CheckOutProduct({ id, image, title, price }) {
           <strong>{ price }</strong>
           <small> 원</small>
         </p>
-        <button onClick={removeFromBasket}> 상품 삭제 </button>
+        <button onClick={()=>{
+      removeFromBasket();
+      alert("상품을 삭제했습니다.")}}> 상품 삭제 </button>
       </div>
     </div>
   );

@@ -3,6 +3,7 @@
     padding: 15px;
     background-color: white;
     height: max-content;
+    min-width: 640px;
 }
 .checkout_title{
     display: flex;

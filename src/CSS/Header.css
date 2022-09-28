@@ -1,5 +1,7 @@
 *{
     font-family: "mabi";
+    font-size: 2vmin;
+    
 }
 .header {
     height: 100px;
@@ -9,6 +11,8 @@
     position: sticky;
     top: 0;
     z-index: 10;
+    min-width: 640px;
+    max-width: 1920px;
 }
 
 .header_logo {
@@ -66,3 +70,6 @@
     margin-left: 5px;
     margin-top: 7px;
 }
+
+@media all and (min-width: 641px){
+      }
