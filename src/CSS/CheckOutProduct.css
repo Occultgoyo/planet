@@ -1,0 +1,27 @@
+.checkoutproduct{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.checkout_pd{
+    object-fit: contain;
+    width: 150px;
+    height:150px;
+
+}
+
+.checkout_pdtitle{
+    /* font-size: 15px; */
+    font-weight: 1000;
+}
+.checkout_pdinfo{
+    padding-left: 15px;
+}
+
+.checkout_pdinfo > button{
+    background: pink;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: aqua, purple, pink;
+}

@@ -1,0 +1,70 @@
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    /* 브라우저의 전체 높이를 잡기위해 vh를 활용함 vh는 1/100 단위이며
+    100으로 했을때 최대높이값으로 설정할수있음 */
+    background-image: linear-gradient(
+        rgba(121, 146, 110, 0.877),
+        rgba(245, 245, 245, 0.647)
+        
+      ), url("../../public/images/planet_container.png");
+      background-size: cover;
+}
+
+.login_Logo{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    object-fit: contain;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login_button{
+    display: inline-block;
+    margin-top: 10px;
+    margin: 10px;
+}
+.login_main > h2{
+font-weight: 800;
+margin-bottom: 30px;
+}
+.login_main > form > h6 {
+    margin-bottom: 10px;
+    text-align: left;
+}
+.login_main > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.login_main > p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+.login_sign{
+    background-color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    border: 1px solid;
+    border-color: aqua, purple, pink;
+    margin-top: 10px;
+    
+}
+.login_reg{
+    background-color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    border: 1px solid;
+    border-color: aqua, purple, pink;
+    margin-top: 10px;
+}
+
+
