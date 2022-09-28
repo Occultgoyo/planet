@@ -11,7 +11,7 @@
     position: sticky;
     top: 0;
     z-index: 10;
-    min-width: 640px;
+    min-width: 480px;
     max-width: 1920px;
 }
 
@@ -24,14 +24,14 @@
 
 .header_search {
     display: flex;
-    flex: 3;
+    flex: 1;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .header_inputsearch {
     height: 10px;
-    padding: 10px;
+    padding: 10.5px;
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -39,8 +39,8 @@
 
 .search_icon {
     background-color: lightgray;
-    padding: 2px;
-    height: 10px;
+    padding: 1px;
+    height: 15px;
     border-radius: 10px;
 
 }

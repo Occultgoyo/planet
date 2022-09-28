@@ -25,7 +25,9 @@ function Header() {
 
         <div className="header_options">
           <span className="header_options_ln1"> 환영합니다.</span>
-          <span className="header_options_ln2"> 로그인 하세요</span>
+        <Link to="/login" style={{ textDecoration: 'none', color: 'lightgray'}}>
+          <span className="header_options_ln2"> 로그인</span>
+          </Link>
         </div>
 
         <div className="header_options">
