@@ -31,7 +31,7 @@ function App() {
           }
         ></Route>
 
-<Route
+        <Route
           path="/login"
           element={
             <div>
@@ -40,7 +40,6 @@ function App() {
           }
         ></Route>
       </Routes>
-      
     </div>
   );
 }
