@@ -12,21 +12,20 @@
     top: 0;
     z-index: 10;
     min-width: 640px;
-    max-width: 1920px;
 }
 
 .header_logo {
     width: 100px;
     object-fit: contain;
     margin: 20px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .header_search {
     display: flex;
     flex: 1;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .header_inputsearch {
@@ -34,15 +33,14 @@
     padding: 10.5px;
     width: 100%;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .search_icon {
     background-color: lightgray;
-    padding: 1px;
-    height: 15px;
-    border-radius: 10px;
-
+    padding: 5px;
+    height: 25px;
+    border-radius: 8px;
 }
 
 .header_options {
@@ -70,6 +68,3 @@
     margin-left: 5px;
     margin-top: 7px;
 }
-
-@media all and (min-width: 641px){
-      }

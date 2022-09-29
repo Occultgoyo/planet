@@ -1,4 +1,5 @@
 .product{
+    z-index: 5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,9 +10,8 @@
     min-width: 640px;
     max-height: 400px;
     background-color: white;
-    /* z-index: 1; */
     border: 5px solid lightgray;
-    
+    text-align: center;
 }
 .product > img{
     max-height: 150px;

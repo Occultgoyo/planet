@@ -4,6 +4,7 @@
     background-color: white;
     height: max-content;
     min-width: 640px;
+    text-align: center;
 }
 .checkout_title{
     display: flex;
@@ -15,4 +16,7 @@
 .checkout_ad {
     width: 100%;
     margin-bottom: 10px;
+}
+.checkout_pdinfo{
+    text-align: center;
 }

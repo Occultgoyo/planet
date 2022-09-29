@@ -16,15 +16,11 @@ function CheckTotal(){
                 <p>
                     총액 ( {basket.length} 개의 상품) : <strong> {value}원 </strong> 
                 </p>
-                {/* <small className="checktotal_gf">
-                    <input type="checkbox" /></small> */}
                 </>
             )}
-            decimalScale={2}
             value={getBasketTotal(basket)}
             displayType={'text'}
             thousandSeparator={true}
-            prefix={"₩"}
             />
             <button> 계산하기 </button>
             </div>

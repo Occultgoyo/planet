@@ -8,7 +8,7 @@
 .checkout_pd{
     object-fit: contain;
     width: 150px;
-    height:150px;
+    height: 150px;
 }
 
 .checkout_pdtitle{
@@ -16,7 +16,7 @@
     font-weight: 1000;
 }
 .checkout_pdinfo{
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 .checkout_pdinfo > button{

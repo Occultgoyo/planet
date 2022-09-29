@@ -12,13 +12,13 @@ function Product({id, title, image, price}) {
     dispatch({
       type: "ADD_BASKET",
       item: {
-        id:id,
-        title:title,
-        image:image,
-        price:price,
-      }
-    })
-  }
+        id: id,
+        title: title,
+        image: image,
+        price: price,
+      },
+    });
+  };
   return (
     <div className="product">
       <div className="product_info">
@@ -29,15 +29,12 @@ function Product({id, title, image, price}) {
           <small> 원</small>
         </p>
       </div>
-      <img
-        src={image}
-        alt=""
-      />
+      <img src={image} alt=""/>
       
       {/* <button onClick={addBasket}> 담기 </button> */}
       <button onClick={()=>{
       addBasket();
-      alert("장바구니에 담겼습니다.")}}> 상품담기 </button>
+      alert("장바구니에 담겼습니다.")}}> 상품 담기 </button>
       
     </div>
   );

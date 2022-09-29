@@ -13,7 +13,6 @@
       ), url("../../public/images/planet_container.png");
       background-size: cover;
 }
-
 .login_Logo{
     margin-bottom: 15px;
     margin-top: 15px;
@@ -31,6 +30,7 @@
 .login_main > h2{
 font-weight: 800;
 margin-bottom: 30px;
+text-align: center;
 }
 .login_main > form > h6 {
     margin-bottom: 10px;

@@ -18,6 +18,7 @@ function Home() {
             price={10551300}
             image={process.env.PUBLIC_URL + "/images/CustomPC.png"}
           />
+          
           <Product
             id="3"
             title="Predator Throne"

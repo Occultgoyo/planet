@@ -1,7 +1,7 @@
 import React from "react";
+import "./CSS/CheckOut.css";
 import CheckOutProduct from "./CheckOutProduct";
 import CheckTotal from "./CheckTotal";
-import "./CSS/CheckOut.css";
 import { useStateVaule } from "./StateProvider";
 
 function CheckOut() {
