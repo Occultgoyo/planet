@@ -1,6 +1,6 @@
 *{
     font-family: "mabi";
-    font-size: 2vmin;
+    font-size: 1.1rem;
     
 }
 .header {
@@ -11,7 +11,7 @@
     position: sticky;
     top: 0;
     z-index: 10;
-    min-width: 480px;
+    min-width: 640px;
     max-width: 1920px;
 }
 
