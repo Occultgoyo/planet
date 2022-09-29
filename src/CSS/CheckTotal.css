@@ -7,6 +7,7 @@
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 3px;
+    justify-content: space-evenly;
 }
 .checktotal > button {
     background-color: white;
